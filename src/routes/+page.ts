@@ -1,10 +1,9 @@
-import { getUserStatus } from '$lib/status';
-import type { PageServerLoad } from './$types';
+import type { PageLoad } from './$types';
 
 export const prerender = true; // enable prerendering
 
-export const load: PageServerLoad = async () => {
-	const { status } = await getUserStatus();
+export const load: PageLoad = async ({ fetch }) => {
+	const { status } = await fetch('/api/status').then((res) => res.json());
 	let statusTitle: 'online' | 'offline';
 	switch (status) {
 		case 'online':
