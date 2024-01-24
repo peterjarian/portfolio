@@ -1,7 +1,5 @@
 import type { PageLoad } from './$types';
 
-export const prerender = true; // enable prerendering
-
 export const load: PageLoad = async ({ fetch }) => {
 	console.log('fetching status');
 	const { status } = await fetch('/api/status').then((res) => res.json());
