@@ -18,7 +18,7 @@
 		<a href="https://discord.com/users/{PUBLIC_DISCORD_USER_ID}" target="_blank">
 			<i class="fa-brands fa-discord"></i>
 		</a>
-		<a href="/"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="https://www.linkedin.com/in/peter-van-der-heijden-bb1262302/"><i class="fa-brands fa-linkedin"></i></a>
 	</div>
 </div>
 
