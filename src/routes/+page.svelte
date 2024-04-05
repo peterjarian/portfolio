@@ -13,7 +13,7 @@
 	</div>
 
 	<div class="socials">
-		<a href="mailto:peter.vdheijden@icloud.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+		<a href="mailto:contact@peterjarian.dev" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 		<a href="https://github.com/peter33130" target="_blank"><i class="fa-brands fa-github"></i></a>
 		<a href="https://discord.com/users/{PUBLIC_DISCORD_USER_ID}" target="_blank">
 			<i class="fa-brands fa-discord"></i>
