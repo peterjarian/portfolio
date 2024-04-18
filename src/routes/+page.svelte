@@ -4,6 +4,12 @@
 	export let data: PageData; // get data from load function
 </script>
 
+<head>
+	<meta name="description" content="Software engineer and student at THUAS" />
+	<meta name="author" content="Peter van der Heijden" />
+	<title>Hey, I'm Peter</title>
+</head>
+
 <div class="container">
 	<h1>Hey, I'm <span class="highlight">Peter</span>!</h1>
 	<h2>Software engineer and student at THUAS</h2>
